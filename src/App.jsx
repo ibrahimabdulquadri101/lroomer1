@@ -4,7 +4,7 @@ import Peer from "peerjs";
 import "./App.css";
 import "./index.css";
 // const socket = io("http://localhost:5000");
-const socket = io("http://localhost:5000", { transports: ["websocket"] });
+const socket = io("https://roomer-e88a.onrender.com", { transports: ["websocket"] });
 
 function App() {
   const [peerId, setPeerId] = useState("");
