@@ -321,13 +321,13 @@ function App() {
             autoPlay
             muted
             playsInline
-            className="w-2/3 rounded border"
+            className="h-52 sm:h-64 md:h-72 lg:h-80 rounded border"
           />
           <video
             ref={remoteVideo}
             autoPlay
             playsInline
-            className="w-2/3 rounded border"
+            className="h-52 sm:h-64 md:h-72 lg:h-80 rounded border"
           />
         </>
       )}
