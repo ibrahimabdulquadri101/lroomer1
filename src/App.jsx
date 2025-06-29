@@ -308,9 +308,6 @@ function App() {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen bg-gray-900 text-white gap-6 p-6">
       <h1 className="text-2xl font-bold">🎥 Roomer Chat</h1>
-      <h2 className="text-sm text-green-400">
-        Your ID: {peerId || "Connecting..."}
-      </h2>
 
       {loading ? (
         <p className="text-yellow-400">🔄 Preparing your camera...</p>
